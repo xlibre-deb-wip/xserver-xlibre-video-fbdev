@@ -1,8 +1,9 @@
-xserver-xorg-video-fbdev (1:0.3.0-3) UNRELEASED; urgency=low
+xserver-xorg-video-fbdev (1:0.3.0-3) unstable; urgency=low
 
+  [ Steve Langasek ]
   * Prepare for upload to unstable
 
- -- Steve Langasek <vorlon@debian.org>  Mon, 18 Sep 2006 03:48:50 -0700
+ -- David Nusinow <dnusinow@debian.org>  Mon, 18 Sep 2006 19:57:34 -0400
 
 xserver-xorg-video-fbdev (1:0.3.0-2) experimental; urgency=low
 
