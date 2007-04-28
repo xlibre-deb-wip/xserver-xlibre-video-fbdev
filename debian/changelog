@@ -6,7 +6,16 @@ xserver-xorg-video-fbdev (1:0.3.1-3) UNRELEASED; urgency=low
   [ Timo Aaltonen ]
   * Replaces/Conflicts: xserver-xorg-driver-fbdev.
 
- -- Timo Aaltonen <tjaalton@cc.hut.fi>  Tue, 24 Apr 2007 13:15:40 +0300
+  [ Brice Goglin ]
+  * Install the upstream changelog.
+  * Bump Build-Depends: xserver-xorg-dev to >= 2:1.2.99.902
+    (needed to let xsfbs get access to serverminver).
+  * Add XS-Vcs-*.
+  * Add a link to www.X.org and a reference to the xf86-video-fbdev
+    module in the long description.
+  * Remove Fabio from uploaders with his permission. He's always welcome back.
+
+ -- Brice Goglin <Brice.Goglin@ens-lyon.org>  Sat, 28 Apr 2007 17:12:35 +0200
 
 xserver-xorg-video-fbdev (1:0.3.1-2) experimental; urgency=low
 
