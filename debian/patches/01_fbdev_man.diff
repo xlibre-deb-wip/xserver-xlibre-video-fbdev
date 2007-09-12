@@ -13,9 +13,3 @@ Index: xserver-xorg-video-fbdev/man/fbdev.man
  to figure out the correct values.
  .PP
  The following driver
-@@ -60,4 +60,4 @@
- __xservername__(__appmansuffix__), __xconfigfile__(__filemansuffix__), xorgconfig(__appmansuffix__), Xserver(__appmansuffix__),
- X(__miscmansuffix__), fbdevhw(__drivermansuffix__)
- .SH AUTHORS
--Authors include: Gerd Knorr, Michel Dänzer, Geert Uytterhoeven
-+Authors include: Gerd Knorr, Michel D\(:anzer, Geert Uytterhoeven
