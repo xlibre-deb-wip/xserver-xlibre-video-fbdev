@@ -4,6 +4,7 @@ xserver-xorg-video-fbdev (1:0.4.0-1) UNRELEASED; urgency=low
   * Refresh patch 01_fbdev_man.diff.
   * Bump Standards-Version to 3.7.3.
   * Drop the XS- prefix from Vcs-* control fields.
+  * Add myself to Uploaders.
 
  -- Julien Cristau <jcristau@debian.org>  Wed, 19 Mar 2008 21:23:38 +0100
 
