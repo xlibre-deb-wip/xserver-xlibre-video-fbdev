@@ -1,3 +1,9 @@
+xserver-xorg-video-fbdev (1:0.4.0-3) UNRELEASED; urgency=low
+
+  * Cherry-pick from upstream git: Make ISA optional.
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 02 Feb 2009 21:47:46 +0100
+
 xserver-xorg-video-fbdev (1:0.4.0-2) experimental; urgency=low
 
   * Build against xserver 1.5.
