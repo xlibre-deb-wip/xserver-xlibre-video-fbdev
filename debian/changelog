@@ -1,6 +1,8 @@
 xserver-xorg-video-fbdev (1:0.4.0-3) UNRELEASED; urgency=low
 
   * Cherry-pick from upstream git: Make ISA optional.
+  * Run autoreconf on build; build-depend on automake, libtool, xutils-dev.
+  * Handle parallel builds.
 
  -- Julien Cristau <jcristau@debian.org>  Mon, 02 Feb 2009 21:47:46 +0100
 
