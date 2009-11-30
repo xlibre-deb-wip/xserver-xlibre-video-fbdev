@@ -1,6 +1,7 @@
 xserver-xorg-video-fbdev (1:0.4.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Bump Standards-Version to 3.8.3.
 
  -- Timo Aaltonen <tjaalton@ubuntu.com>  Mon, 30 Nov 2009 16:13:23 +0200
 
