@@ -1,3 +1,51 @@
+commit e233c12c97233f8842c77cb6324c19fcdb06bfa7
+Author: Dave Airlie <airlied@redhat.com>
+Date:   Thu Jul 30 12:04:27 2009 +1000
+
+    fbdev: bump for release 0.4.1
+
+commit dfe51de9923c5436b039f246cf2fc4bfff9329e8
+Author: Dave Airlie <airlied@redhat.com>
+Date:   Tue Jul 28 15:22:40 2009 +1000
+
+    fbdev: change to using ABI version check
+
+commit fe00991326bbf6f0944543fda3856bedaa916a09
+Author: Dave Airlie <airlied@redhat.com>
+Date:   Tue Jul 28 13:32:29 2009 +1000
+
+    fbdev: update for resources/RAC API removal
+
+commit 16ea2bb46c9acc881f66a1f498d63586071aa9b7
+Author: Adam Jackson <ajax@redhat.com>
+Date:   Thu May 28 14:55:08 2009 -0400
+
+    Remove useless loader symbol lists.
+
+commit c3434c86252428a93861daa8ba1161391576cd88
+Author: Adam Jackson <ajax@redhat.com>
+Date:   Wed Mar 4 10:09:47 2009 -0500
+
+    Allow building against a non-DGA server.
+
+commit db33e337a867c5be8f21c7ebf6fdafaa00d02abc
+Author: Alan Coopersmith <alan.coopersmith@sun.com>
+Date:   Fri Jan 30 20:38:47 2009 -0800
+
+    Add README with pointers to mailing list, bugzilla & git repos
+
+commit f9b88908fc94d03d91d948a67c0dc87d30f2a6a9
+Author: Alan Coopersmith <alan.coopersmith@sun.com>
+Date:   Fri Jan 9 16:27:44 2009 -0800
+
+    Remove xorgconfig & xorgcfg from See Also list in man page
+
+commit 092f0f10cb243ef011a38a92e4eb48d424de80fa
+Author: Adam Jackson <ajax@redhat.com>
+Date:   Sun Nov 23 20:04:30 2008 -0500
+
+    Make ISA optional
+
 commit 73ff2d0cd72a165ecfb30b1620bda3b445d04409
 Author: Adam Jackson <ajax@redhat.com>
 Date:   Wed Mar 19 13:51:44 2008 -0400
