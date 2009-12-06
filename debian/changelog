@@ -1,10 +1,14 @@
-xserver-xorg-video-fbdev (1:0.4.1-1) UNRELEASED; urgency=low
+xserver-xorg-video-fbdev (1:0.4.1-1) experimental; urgency=low
 
+  [ Timo Aaltonen ]
   * New upstream release.
   * Bump Standards-Version to 3.8.3.
   * Build against Xserver 1.7.
 
- -- Timo Aaltonen <tjaalton@ubuntu.com>  Sat, 05 Dec 2009 01:49:06 +0200
+  [ Cyril Brulebois ]
+  * Upload to experimental.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sun, 06 Dec 2009 03:09:35 +0100
 
 xserver-xorg-video-fbdev (1:0.4.0-4) unstable; urgency=low
 
