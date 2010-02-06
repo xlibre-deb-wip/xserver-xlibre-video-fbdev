@@ -37,3 +37,12 @@ Description: X.Org X server -- fbdev display driver
  <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
  .
  This package is built from the X.org xf86-video-fbdev driver module.
+
+Package: xserver-xorg-video-fbdev-udeb
+Package-Type: udeb
+Section: debian-installer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${xserver:Depends}
+Provides: ${xviddriver:Provides}
+Description: X.Org X server -- fbdev display driver
+ This is a udeb, or a microdeb, for the debian-installer.

@@ -1,8 +1,13 @@
 xserver-xorg-video-fbdev (1:0.4.1-2) UNRELEASED; urgency=low
 
+  [ Julien Cristau ]
   * Rename the build directory to not include DEB_BUILD_GNU_TYPE for no
     good reason.  Thanks, Colin Watson!
   * Remove myself from Uploaders
+
+  [ Cyril Brulebois ]
+  * Add udeb needed for the graphical installer:
+    xserver-xorg-video-fbdev-udeb.
 
  -- Julien Cristau <jcristau@debian.org>  Sat, 23 Jan 2010 02:05:49 +0100
 
