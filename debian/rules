@@ -32,6 +32,11 @@ endif
 # kbd_drv.a isn't phenomenally useful; kbd_drv.so more so
 confflags += --disable-static
 
+common_confflags = \
+	--prefix=/usr --mandir=\$${prefix}/share/man \
+	--infodir=\$${prefix}/share/info $(confflags) \
+	CFLAGS="$(CFLAGS)"
+
 configure: $(STAMP_DIR)/patch
 	dh_testdir
 	autoreconf -vfi
@@ -41,11 +46,11 @@ build-stamp: configure
 	dh_testdir
 
 	test -d build || mkdir build
-	cd build && \
-	../configure --prefix=/usr --mandir=\$${prefix}/share/man \
-	             --infodir=\$${prefix}/share/info $(confflags) \
-	             CFLAGS="$(CFLAGS)" 
+	test -d build-udeb || mkdir build-udeb
+	cd build && ../configure --enable-xv $(common_confflags)
+	cd build-udeb && ../configure --disable-xv $(common_confflags)
 	cd build && $(MAKE)
+	cd build-udeb && $(MAKE)
 	>$@
 
 clean: xsfclean
@@ -57,7 +62,8 @@ clean: xsfclean
 	rm -f */config.cache */config.log */config.status
 	rm -f conftest* */conftest*
 	rm -rf autom4te.cache */autom4te.cache
-	rm -rf build
+	rm -rf build build-udeb
+	rm -rf debian/tmp debian/tmp-udeb
 	rm -f aclocal.m4 config.guess config.sub config.h.in configure
 	rm -f depcomp install-sh ltmain.sh missing mkinstalldirs
 	rm -f $$(find -name Makefile.in)
@@ -68,9 +74,11 @@ install: build
 	dh_testdir
 	dh_testroot
 	dh_clean -k
+	rm -rf debian/tmp-udeb
 	dh_installdirs
 
 	cd build && $(MAKE) DESTDIR=$(CURDIR)/debian/tmp install
+	cd build-udeb && $(MAKE) DESTDIR=$(CURDIR)/debian/tmp-udeb install
 
 # Build architecture-dependent files here.
 binary-arch: build install serverabi
@@ -79,7 +87,8 @@ binary-arch: build install serverabi
 
 	dh_installdocs
 	dh_installchangelogs ChangeLog
-	dh_install --sourcedir=debian/tmp --list-missing
+	dh_install -p$(PACKAGE) --sourcedir=debian/tmp --list-missing
+	dh_install -p$(PACKAGE)-udeb --sourcedir=debian/tmp-udeb --list-missing
 	dh_link
 	dh_strip
 	dh_compress
