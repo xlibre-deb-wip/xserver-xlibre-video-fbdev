@@ -1,3 +1,9 @@
+xserver-xorg-video-fbdev (1:0.4.2-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Cyril Brulebois <kibi@debian.org>  Tue, 06 Apr 2010 05:01:51 +0200
+
 xserver-xorg-video-fbdev (1:0.4.1-2) unstable; urgency=low
 
   [ Julien Cristau ]
