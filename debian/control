@@ -7,7 +7,7 @@ Build-Depends:
  debhelper (>= 5.0.0),
  quilt,
  pkg-config,
- xserver-xorg-dev (>= 2:1.7),
+ xserver-xorg-dev (>= 2:1.7.6.901),
  x11proto-core-dev,
  x11proto-fonts-dev,
  x11proto-randr-dev,
@@ -23,7 +23,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-xorg/driver/xserver-xorg-video-fbdev.g
 
 Package: xserver-xorg-video-fbdev
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${xserver:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${xviddriver:Depends}
 Provides: ${xviddriver:Provides}
 Replaces: xserver-xorg (<< 6.8.2-35), xserver-xorg-driver-fbdev
 Conflicts: xserver-xorg-driver-fbdev
@@ -42,7 +42,7 @@ Package: xserver-xorg-video-fbdev-udeb
 XC-Package-Type: udeb
 Section: debian-installer
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${xserver:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${xviddriver:Depends}
 Provides: ${xviddriver:Provides}
 Description: X.Org X server -- fbdev display driver
  This is a udeb, or a microdeb, for the debian-installer.
