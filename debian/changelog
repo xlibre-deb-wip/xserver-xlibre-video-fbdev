@@ -1,3 +1,11 @@
+xserver-xorg-video-fbdev (1:0.4.2-2ubuntu1) maverick; urgency=low
+
+  * Merge from Debian unstable.  Remaining Ubuntu changes:
+    - 100_bgnoneroot.patch: Set canDoBGNoneRoot for Plymouth crossfade    
+  * Build against Xserver 1.8
+  
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 10 Jun 2010 11:20:39 +1000
+
 xserver-xorg-video-fbdev (1:0.4.2-2) unstable; urgency=low
 
   * Update to new xsfbs, replace deprecated ${xserver:Depends} with
@@ -32,6 +40,14 @@ xserver-xorg-video-fbdev (1:0.4.1-2) unstable; urgency=low
   * Add myself to Uploaders.
 
  -- Cyril Brulebois <kibi@debian.org>  Fri, 12 Mar 2010 01:32:16 +0100
+
+xserver-xorg-video-fbdev (1:0.4.1-1ubuntu1) lucid; urgency=low
+
+  * Add 100_bgnoneroot.patch: Set canDoBGNoneRoot on startup. Useful for
+    plymouth crossfade testing for those of us with lousy hardware.
+    Patch from Fedora.
+
+ -- Bryce Harrington <bryce@ubuntu.com>  Wed, 31 Mar 2010 16:28:17 -0700
 
 xserver-xorg-video-fbdev (1:0.4.1-1) experimental; urgency=low
 
