@@ -1,8 +1,8 @@
-xserver-xorg-video-fbdev (1:0.4.2-3) UNRELEASED; urgency=low
+xserver-xorg-video-fbdev (1:0.4.2-3) experimental; urgency=low
 
   * Build against Xserver 1.9.1 rc1.
 
- -- Cyril Brulebois <kibi@debian.org>  Mon, 11 Oct 2010 10:42:15 +0200
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 13 Oct 2010 00:36:31 +0200
 
 xserver-xorg-video-fbdev (1:0.4.2-2) unstable; urgency=low
 
