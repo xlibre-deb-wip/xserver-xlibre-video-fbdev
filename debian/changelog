@@ -1,3 +1,9 @@
+xserver-xorg-video-fbdev (1:0.4.2-3) experimental; urgency=low
+
+  * Build against Xserver 1.9.1 rc1.
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 13 Oct 2010 00:36:31 +0200
+
 xserver-xorg-video-fbdev (1:0.4.2-2ubuntu1) maverick; urgency=low
 
   * Merge from Debian unstable.  Remaining Ubuntu changes:
