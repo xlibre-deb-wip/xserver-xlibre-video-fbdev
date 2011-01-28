@@ -1,3 +1,11 @@
+xserver-xorg-video-fbdev (1:0.4.2-3ubuntu1) natty; urgency=low
+
+  * Merge from Debian experimental.  Remaining Ubuntu changes:
+    - 100_bgnoneroot.patch: Set canDoBGNoneRoot for Plymouth crossfade    
+  * Refresh 100_bgnoneroot.patch to build against both 1.9 and 1.10
+  
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Fri, 28 Jan 2011 17:52:22 +1100
+
 xserver-xorg-video-fbdev (1:0.4.2-3) experimental; urgency=low
 
   * Build against Xserver 1.9.1 rc1.
