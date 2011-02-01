@@ -1,3 +1,10 @@
+xserver-xorg-video-fbdev (1:0.4.2-3ubuntu3) natty; urgency=low
+
+  * debian/control: Bump build-depends on xserver-xorg-dev to really,
+    really build against Xserver 1.10
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 01 Feb 2011 21:18:35 +1100
+
 xserver-xorg-video-fbdev (1:0.4.2-3ubuntu2) natty; urgency=low
 
   * Rebuild against Xserver 1.10
