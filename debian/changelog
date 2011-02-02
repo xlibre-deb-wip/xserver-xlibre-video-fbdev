@@ -1,3 +1,10 @@
+xserver-xorg-video-fbdev (1:0.4.2-3ubuntu4) UNRELEASED; urgency=low
+
+  * debian/patches/100_bgnoneroot.patch: defer this initialization until we
+    have a valid Screen to attach to.  LP: #711614.
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Wed, 02 Feb 2011 03:23:28 +0000
+
 xserver-xorg-video-fbdev (1:0.4.2-3ubuntu3) natty; urgency=low
 
   * debian/control: Bump build-depends on xserver-xorg-dev to really,
