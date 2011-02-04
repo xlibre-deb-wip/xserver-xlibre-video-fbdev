@@ -9,6 +9,7 @@ xserver-xorg-video-fbdev (1:0.4.2-4) UNRELEASED; urgency=low
   * Update Uploaders list. Thanks, David & Brice!
   * Remove long obsolete Replaces/Conflicts.
   * Wrap Depends/Provides.
+  * Bump Standards-Version to 3.9.1 (no changes needed).
 
  -- Cyril Brulebois <kibi@debian.org>  Fri, 04 Feb 2011 13:13:17 +0100
 
