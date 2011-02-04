@@ -3,6 +3,12 @@
 PACKAGE  = xserver-xorg-video-fbdev
 OOT      = --builddirectory=build
 
+# Clean:
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf build-main/ debian/tmp-main/
+	rm -rf build-udeb/ debian/tmp-udeb/
+
 # Configuration, with or without xv:
 override_dh_auto_configure:
 	dh_auto_configure $(OOT)-main/ -- --enable-xv
