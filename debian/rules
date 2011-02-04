@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
-PACKAGE  = xserver-xorg-video-fbdev
-OOT      = --builddirectory=build
+PACKAGE = xserver-xorg-video-fbdev
+OOT     = --builddirectory=build
 
 # Clean:
 override_dh_auto_clean:
