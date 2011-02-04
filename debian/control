@@ -21,8 +21,12 @@ Vcs-Browser: http://git.debian.org/?p=pkg-xorg/driver/xserver-xorg-video-fbdev.g
 
 Package: xserver-xorg-video-fbdev
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${xviddriver:Depends}
-Provides: ${xviddriver:Provides}
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ ${xviddriver:Depends},
+Provides:
+ ${xviddriver:Provides}
 Description: X.Org X server -- fbdev display driver
  This package provides the driver for the Linux framebuffer device (aka
  'fbdev').
