@@ -16,13 +16,13 @@ override_dh_auto_configure:
 
 # Build:
 override_dh_auto_build:
-	make -C build-main/
-	make -C build-udeb/
+	$(MAKE) -C build-main/
+	$(MAKE) -C build-udeb/
 
 # Install:
 override_dh_auto_install:
-	make -C build-main/ install DESTDIR=$(CURDIR)/debian/tmp-main
-	make -C build-udeb/ install DESTDIR=$(CURDIR)/debian/tmp-udeb
+	$(MAKE) -C build-main/ install DESTDIR=$(CURDIR)/debian/tmp-main
+	$(MAKE) -C build-udeb/ install DESTDIR=$(CURDIR)/debian/tmp-udeb
 
 # Kill *.la files, and forget no-one:
 override_dh_install:
