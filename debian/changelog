@@ -1,4 +1,4 @@
-xserver-xorg-video-fbdev (1:0.4.2-4) UNRELEASED; urgency=low
+xserver-xorg-video-fbdev (1:0.4.2-4) unstable; urgency=low
 
   * Switch to dh:
     - Use debhelper 8.
@@ -11,7 +11,7 @@ xserver-xorg-video-fbdev (1:0.4.2-4) UNRELEASED; urgency=low
   * Wrap Depends/Provides.
   * Bump Standards-Version to 3.9.1 (no changes needed).
 
- -- Cyril Brulebois <kibi@debian.org>  Fri, 04 Feb 2011 13:13:17 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 05 Feb 2011 14:44:43 +0100
 
 xserver-xorg-video-fbdev (1:0.4.2-3) experimental; urgency=low
 
