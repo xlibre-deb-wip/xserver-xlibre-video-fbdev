@@ -1,3 +1,9 @@
+xserver-xorg-video-fbdev (1:0.4.2-5) UNRELEASED; urgency=low
+
+  * Rebuild against Xserver 1.10 rc2.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 19 Feb 2011 11:45:36 +0100
+
 xserver-xorg-video-fbdev (1:0.4.2-4) unstable; urgency=low
 
   * Switch to dh:
