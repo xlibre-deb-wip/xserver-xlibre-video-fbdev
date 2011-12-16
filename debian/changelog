@@ -1,3 +1,25 @@
+xserver-xorg-video-fbdev (1:0.4.2-4ubuntu1) precise; urgency=low
+
+  * Merge from Debian testing.  Remaining Ubuntu changes:
+    - debian/patches/100_bgnoneroot.patch: support Plymouth crossfade.
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Fri, 16 Dec 2011 17:49:54 +1100
+
+xserver-xorg-video-fbdev (1:0.4.2-4) unstable; urgency=low
+
+  * Switch to dh:
+    - Use debhelper 8.
+    - Use dh-autoreconf.
+    - Bump xserver-xorg-dev build-dep for dh_xsf_substvars and xsf
+      debhelper sequence.
+  * Remove xsfbs accordingly.
+  * Update Uploaders list. Thanks, David & Brice!
+  * Remove long obsolete Replaces/Conflicts.
+  * Wrap Depends/Provides.
+  * Bump Standards-Version to 3.9.1 (no changes needed).
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 05 Feb 2011 14:44:43 +0100
+
 xserver-xorg-video-fbdev (1:0.4.2-3ubuntu6) natty; urgency=low
 
   * Rebuild to pick up new Xserver dependencies
