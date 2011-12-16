@@ -1,3 +1,15 @@
+xserver-xorg-video-fbdev (1:0.4.2-3ubuntu6) natty; urgency=low
+
+  * Rebuild to pick up new Xserver dependencies
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 09 Mar 2011 14:49:00 +1100
+
+xserver-xorg-video-fbdev (1:0.4.2-3ubuntu5) natty; urgency=low
+
+  * Rebuild to pick up new Xserver dependencies
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 23 Feb 2011 17:53:14 +1100
+
 xserver-xorg-video-fbdev (1:0.4.2-3ubuntu4) natty; urgency=low
 
   * debian/patches/100_bgnoneroot.patch: defer this initialization until we
