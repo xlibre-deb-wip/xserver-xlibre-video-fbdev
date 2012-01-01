@@ -1,3 +1,9 @@
+xserver-xorg-video-fbdev (1:0.4.2-7) UNRELEASED; urgency=low
+
+  * Build against Xserver 1.12 RC1.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 31 Dec 2011 20:16:31 +0100
+
 xserver-xorg-video-fbdev (1:0.4.2-6) experimental; urgency=low
 
   * Rebuild against Xserver 1.10 rc3.
