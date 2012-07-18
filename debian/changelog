@@ -1,3 +1,31 @@
+xserver-xorg-video-fbdev (1:0.4.3-1) UNRELEASED; urgency=low
+
+  * New upstream release 0.4.3
+  * Remove 01_fbdev_man.diff
+    - No longer applies/valid
+  * Refresh 02-support-building-without-xv.patch
+  * Bump Standards-Version to 3.9.3 (no changes needed).
+
+ -- Maarten Lankhorst <maarten.lankhorst@canonical.com>  Wed, 18 Jul 2012 14:22:37 +0200
+
+xserver-xorg-video-fbdev (1:0.4.2-7) experimental; urgency=low
+
+  * Build against Xserver 1.12 RC1.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sun, 01 Jan 2012 06:06:00 +0100
+
+xserver-xorg-video-fbdev (1:0.4.2-6) experimental; urgency=low
+
+  * Rebuild against Xserver 1.10 rc3.
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 25 Feb 2011 15:53:24 +0100
+
+xserver-xorg-video-fbdev (1:0.4.2-5) experimental; urgency=low
+
+  * Rebuild against Xserver 1.10 rc2.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sun, 20 Feb 2011 07:40:28 +0100
+
 xserver-xorg-video-fbdev (1:0.4.2-4ubuntu1) precise; urgency=low
 
   * Merge from Debian testing.  Remaining Ubuntu changes:
