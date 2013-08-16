@@ -1,12 +1,13 @@
-xserver-xorg-video-fbdev (1:0.4.3-1) UNRELEASED; urgency=low
+xserver-xorg-video-fbdev (1:0.4.3-1) unstable; urgency=low
 
+  [ Maarten Lankhorst ]
   * New upstream release 0.4.3
   * Remove 01_fbdev_man.diff
     - No longer applies/valid
   * Refresh 02-support-building-without-xv.patch
   * Bump Standards-Version to 3.9.3 (no changes needed).
 
- -- Maarten Lankhorst <maarten.lankhorst@canonical.com>  Wed, 18 Jul 2012 14:22:37 +0200
+ -- Julien Cristau <jcristau@debian.org>  Fri, 16 Aug 2013 11:35:04 +0200
 
 xserver-xorg-video-fbdev (1:0.4.2-7) experimental; urgency=low
 
