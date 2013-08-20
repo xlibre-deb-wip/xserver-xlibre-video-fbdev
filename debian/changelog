@@ -1,4 +1,4 @@
-xserver-xorg-video-fbdev (1:0.4.3-2) UNRELEASED; urgency=low
+xserver-xorg-video-fbdev (1:0.4.3-2) unstable; urgency=low
 
   * Make sure not to enable XV support in the udeb: XV comes from
     xorg-server.h and tells us whether the regular server was built with
@@ -6,7 +6,7 @@ xserver-xorg-video-fbdev (1:0.4.3-2) UNRELEASED; urgency=low
     the driver should be built with XV support (Closes: #720313). Thanks,
     Steven Chamberlain!
 
- -- Cyril Brulebois <kibi@debian.org>  Tue, 20 Aug 2013 14:46:26 +0200
+ -- Cyril Brulebois <kibi@debian.org>  Tue, 20 Aug 2013 15:19:49 +0200
 
 xserver-xorg-video-fbdev (1:0.4.3-1) unstable; urgency=low
 
