@@ -1,3 +1,17 @@
+commit 679ed9a4e6b54227df191c580e3ef641e075db19
+Author: Julien Cristau <jcristau@debian.org>
+Date:   Mon Sep 23 20:02:47 2013 +0200
+
+    Bump to 0.4.4
+
+commit ac293412a01d87f87eb61f4adb9db7486a75d3fc
+Author: Adam Jackson <ajax@redhat.com>
+Date:   Tue Sep 25 08:54:37 2012 -0400
+
+    Remove mibstore.h
+    
+    Signed-off-by: Adam Jackson <ajax@redhat.com>
+
 commit 2edaad4ab2c75e6863caa529d27cd141f579914a
 Author: Dave Airlie <airlied@redhat.com>
 Date:   Mon Jul 2 12:47:08 2012 +0100
