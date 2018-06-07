@@ -1,10 +1,10 @@
-xserver-xorg-video-fbdev (1:0.5.0-1) UNRELEASED; urgency=medium
+xserver-xorg-video-fbdev (1:0.5.0-1) unstable; urgency=medium
 
   * Let uscan verify upstream tarball signatures.
   * New upstream release
     + Fix compatibility with xserver 1.20 (closes: #900613)
 
- -- Julien Cristau <jcristau@debian.org>  Thu, 07 Jun 2018 11:52:21 +0200
+ -- Julien Cristau <jcristau@debian.org>  Thu, 07 Jun 2018 11:58:57 +0200
 
 xserver-xorg-video-fbdev (1:0.4.4-1) unstable; urgency=low
 
