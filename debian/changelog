@@ -4,6 +4,7 @@ xserver-xorg-video-fbdev (1:0.5.0-2) UNRELEASED; urgency=medium
   * Migrate to debhelper-compat, bump to 13.
   * Remove Cyril from Uploaders.
   * Bump policy to 4.6.0.
+  * control: Update Vcs urls.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Wed, 25 Aug 2021 14:57:27 +0300
 
