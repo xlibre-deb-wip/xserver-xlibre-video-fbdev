@@ -9,7 +9,7 @@ Build-Depends:
  xserver-xorg-dev (>= 2:1.11.99.901),
  x11proto-dev,
  xutils-dev (>= 1:7.5+1),
-Standards-Version: 3.9.3
+Standards-Version: 4.6.0
 Vcs-Git: git://git.debian.org/git/pkg-xorg/driver/xserver-xorg-video-fbdev
 Vcs-Browser: http://git.debian.org/?p=pkg-xorg/driver/xserver-xorg-video-fbdev.git
 
