@@ -1,4 +1,4 @@
-xserver-xorg-video-fbdev (1:0.5.0-2) UNRELEASED; urgency=medium
+xserver-xorg-video-fbdev (1:0.5.0-2) unstable; urgency=medium
 
   * control: Migrate to x11proto-dev.
   * Migrate to debhelper-compat, bump to 13.
@@ -8,7 +8,7 @@ xserver-xorg-video-fbdev (1:0.5.0-2) UNRELEASED; urgency=medium
   * Update README.source for salsa.
   * Build against new xserver.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Wed, 25 Aug 2021 14:57:27 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 09 Feb 2022 12:40:14 +0200
 
 xserver-xorg-video-fbdev (1:0.5.0-1) unstable; urgency=medium
 
