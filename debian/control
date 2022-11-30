@@ -31,7 +31,7 @@ Description: X.Org X server -- fbdev display driver
  This package is built from the X.org xf86-video-fbdev driver module.
 
 Package: xserver-xorg-video-fbdev-udeb
-XC-Package-Type: udeb
+Package-Type: udeb
 Section: debian-installer
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${xviddriver:Depends}
