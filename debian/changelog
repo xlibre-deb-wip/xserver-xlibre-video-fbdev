@@ -2,6 +2,7 @@ xserver-xorg-video-fbdev (1:0.5.0-3) UNRELEASED; urgency=medium
 
   * Replace XC-Package-Type with Package-Type.
   * Update standards version to 4.6.1, no changes needed.
+  * Update standards version to 4.6.2, no changes needed.
 
  -- Debian Janitor <janitor@jelmer.uk>  Wed, 30 Nov 2022 14:39:20 -0000
 
