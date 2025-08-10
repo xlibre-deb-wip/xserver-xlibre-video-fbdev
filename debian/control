@@ -1,25 +1,27 @@
-Source: xserver-xorg-video-fbdev
+Source: xserver-xlibre-video-fbdev
 Section: x11
 Priority: optional
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Maintainer: apebl <a@pebl.cc>
 Build-Depends:
  debhelper-compat (= 13),
  quilt,
  pkg-config,
- xserver-xorg-dev (>= 2:21.1),
+ xserver-xlibre-dev (>= 2:21.1),
  x11proto-dev,
  xutils-dev (>= 1:7.5+1),
 Standards-Version: 4.6.2
-Vcs-Git: https://salsa.debian.org/xorg-team/driver/xserver-xorg-video-fbdev.git
-Vcs-Browser: https://salsa.debian.org/xorg-team/driver/xserver-xorg-video-fbdev
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-video-fbdev.git
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-video-fbdev
+Homepage: https://github.com/X11Libre
 
-Package: xserver-xorg-video-fbdev
+Package: xserver-xlibre-video-fbdev
 Architecture: any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  ${xviddriver:Depends},
 Provides:
+ xserver-xorg-video-fbdev,
  ${xviddriver:Provides}
 Description: X.Org X server -- fbdev display driver
  This package provides the driver for the Linux framebuffer device (aka
@@ -29,12 +31,18 @@ Description: X.Org X server -- fbdev display driver
  <URL:http://www.X.org>
  .
  This package is built from the X.org xf86-video-fbdev driver module.
+Conflicts:
+ xserver-xorg-video-fbdev,
 
-Package: xserver-xorg-video-fbdev-udeb
+Package: xserver-xlibre-video-fbdev-udeb
 Package-Type: udeb
 Section: debian-installer
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${xviddriver:Depends}
-Provides: ${xviddriver:Provides}
+Provides:
+ xserver-xorg-video-fbdev-udeb,
+ ${xviddriver:Provides}
 Description: X.Org X server -- fbdev display driver
  This is a udeb, or a microdeb, for the debian-installer.
+Conflicts:
+ xserver-xorg-video-fbdev-udeb,
