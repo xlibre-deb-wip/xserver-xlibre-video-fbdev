@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-PACKAGE = xserver-xorg-video-fbdev
+PACKAGE = xserver-xlibre-video-fbdev
 OOT     = --builddirectory=build
 
 # Clean:
