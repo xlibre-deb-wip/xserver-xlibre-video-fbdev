@@ -9,14 +9,12 @@ override_dh_auto_clean:
 	rm -rf build-main/ debian/tmp-main/
 	rm -rf build-udeb/ debian/tmp-udeb/
 
-# Configuration, with or without xv:
+# Configuration:
 override_dh_auto_configure:
 	dh_auto_configure $(OOT)-main/ -- \
-		--libdir=/usr/lib \
-		--enable-xv
+		--libdir=/usr/lib
 	dh_auto_configure $(OOT)-udeb/ -- \
-		--libdir=/usr/lib \
-		--disable-xv
+		--libdir=/usr/lib
 
 # Build:
 override_dh_auto_build:
