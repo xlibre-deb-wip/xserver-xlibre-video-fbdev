@@ -3,6 +3,9 @@
 PACKAGE = xserver-xlibre-video-fbdev
 OOT     = --builddirectory=build
 
+XDEP = $(shell cat /usr/share/xserver-xorg/videodrvdep)
+XSUB = debian/$(PACKAGE).substvars
+
 # Clean:
 override_dh_auto_clean:
 	dh_auto_clean
@@ -39,6 +42,11 @@ override_dh_missing:
 # That's a plugin, use appropriate warning level:
 override_dh_shlibdeps:
 	dh_shlibdeps -- --warnings=6
+
+override_dh_xsf_substvars:
+	echo "xviddriver:Depends=$(XDEP)" >> $(XSUB)
+	echo "xviddriver:Provides=xlibre-driver-video" >> $(XSUB)
+#	dh_xsf_substvars
 
 %:
 	dh $@ --with quilt,xsf
