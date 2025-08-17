@@ -21,7 +21,7 @@ Depends:
  ${misc:Depends},
  ${xviddriver:Depends},
 Provides:
- xserver-xorg-video-fbdev,
+ xserver-xorg-video-fbdev (= ${binary:Version}),
  ${xviddriver:Provides}
 Description: XLibre X server -- fbdev display driver
  This package provides the driver for the Linux framebuffer device (aka
@@ -40,7 +40,7 @@ Section: debian-installer
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${xviddriver:Depends}
 Provides:
- xserver-xorg-video-fbdev-udeb,
+ xserver-xorg-video-fbdev-udeb (= ${binary:Version}),
  ${xviddriver:Provides}
 Description: XLibre X server -- fbdev display driver
  This is a udeb, or a microdeb, for the debian-installer.
