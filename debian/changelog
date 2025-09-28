@@ -1,3 +1,10 @@
+xserver-xlibre-video-fbdev (1:0.5.1.2-1) unstable; urgency=medium
+
+  * New upstream version 0.5.1.2
+  * debian/rules: Specify xorg-module-dir
+
+ -- apebl <a@pebl.cc>  Sun, 28 Sep 2025 14:24:16 +0000
+
 xserver-xlibre-video-fbdev (1:0.5.1.1-2) unstable; urgency=medium
 
   * debian/control: Pin versions in Provides fields
